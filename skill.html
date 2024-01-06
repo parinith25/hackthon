@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Resume</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js"></script>
+</head>
+
+</head>
+
+<body>
+    <h1>Resume</h1>
+    <ul class="nav">
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="Education.html">Education Details</a></li>
+        <li><a href="skill.html">Skills</a></li>
+        <li><a href="personal.html">Personal Info</a></li>
+    </ul>
+    
+    <table border="1" align="center">
+        
+            <tr>
+                <th>Skill</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>HTML5 and CSS3</td>
+                <td>Proficiency in creating structured web pages and styling them using the latest standards.</td>
+            </tr>
+            <tr>
+                <td>Responsive Web Design</td>
+                <td>Ability to design websites that adapt to various screen sizes and devices.</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Intermidiate</td>
+            </tr>
+            
+            <tr>
+                <td>Python</td>
+                <td>Creating a well looking backend</td>
+        
+            </tr>
+
+        </tr>
+    </table>
+    
+
+    <h2> Projects</h2>
+    <p>
+        <h3 onclick="toggleProjectDetails('portfolio')">Portfolio Website</h3>
+        <div id="portfolio" style="display: none;">
+            <p>Designed and developed a personal portfolio website to showcase my web design projects.
+                Used HTML, CSS, and JavaScript to create an interactive and visually appealing site.</p>
+        </div>
+
+        <h3 onclick="toggleProjectDetails('ecommerce')">E-commerce Website Redesign</h3>
+        <div id="ecommerce" style="display: none;">
+            <p>Collaborated with a team to redesign an e-commerce website, focusing on improving the user
+                interface and enhancing the overall user experience. Implemented responsive design and enhanced
+                product pages.</p>
+        </div>
+
+        <h3 onclick="toggleProjectDetails('foodordering')">Online Food Ordering System</h3>
+        <div id="foodordering" style="display: none;">
+            <p>Developed a web-based food ordering system for a local restaurant, allowing customers to browse the menu,
+                place orders, and make secure online payments. Integrated responsive design and real-time order tracking
+                for an enhanced dining experience.</p>
+        </div>
+    </p>
+
+    <h3 align="center">HOBBIES</h3>
+    <ul>
+        <li>Coding and Programming</li>
+        <li>Reading Books</li>
+        <li>Playing Cricket</li>
+    </ul>
+    <footer>
+        &copy; Parinith Gowda
+    </footer>
+</body>
+
+</html>
