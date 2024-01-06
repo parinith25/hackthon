@@ -66,3 +66,28 @@ th, td {
 #personalInfo {
   display: none; 
 }
+@media only screen and (max-width: 600px) {
+
+  body {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .nav li {
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    padding: 10px;
+  }
+
+  footer {
+    padding:10px;
+}
+}
